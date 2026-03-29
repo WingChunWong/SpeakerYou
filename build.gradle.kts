@@ -1,6 +1,3 @@
-import java.util.zip.ZipEntry
-import java.util.zip.ZipOutputStream
-
 plugins {
     kotlin("jvm") version "2.2.20"
     kotlin("plugin.serialization") version "2.2.20"
@@ -9,6 +6,7 @@ plugins {
 }
 
 group = "com.wongwingchun"
+
 version = "1.0.0"
 
 repositories {
@@ -53,17 +51,11 @@ tasks.register<Zip>("packagePlugin") {
     from("src/main/resources/plugin.json")
 
     // Add compiled classes (rename to plugin.jar)
-    from(tasks.jar.get().outputs.files) {
-        rename { "plugin.jar" }
-    }
+    from(tasks.jar.get().outputs.files) { rename { "plugin.jar" } }
 
     // Add dependencies
-    from(layout.buildDirectory.dir("libs/lib")) {
-        into("lib")
-    }
+    from(layout.buildDirectory.dir("libs/lib")) { into("lib") }
 
     // Add icon if exists
-    from("src/main/resources") {
-        include("icon.png")
-    }
+    from("src/main/resources") { include("icon.png") }
 }
