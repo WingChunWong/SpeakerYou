@@ -1,0 +1,11 @@
+{
+  "id": "com.wongwingchun.speakeryou",
+  "name": "SpeakerYou",
+  "version": "1.0.0",
+  "author": "WongWingChun",
+  "description": "Use your phone as a computer speaker - stream audio from mobile to desktop via WiFi, Bluetooth, or USB.",
+  "tags": ["audio", "streaming", "network"],
+  "platform": "both",
+  "minApiVersion": "1.0.0",
+  "mainClass": "com.wongwingchun.speakeryou.SpeakerPlugin"
+}

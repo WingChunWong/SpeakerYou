@@ -1,0 +1,40 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# Kotlin
+*.class
+*.jar
+*.dex
+!plugin-api-jvm-*.jar
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Local config
+local.properties
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Package outputs (optional - uncomment if you don't want to track)
+# *.micyou-plugin.zip
