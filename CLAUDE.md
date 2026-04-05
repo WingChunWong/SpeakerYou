@@ -47,3 +47,15 @@ The plugin package includes:
 - Project is WIP (development stage) - README notes not to use it yet
 - Uses Kotlin 2.2.20 with Compose 1.7.3
 - Settings are persisted via `PluginContext` (getString/putString, getInt/putInt, getBoolean/putBoolean)
+
+## Lookup
+
+Sample: https://github.com/LanRhyme/MicYou/tree/master/exampleplugins/sample-plugin
+Docs: 
+- https://raw.githubusercontent.com/LanRhyme/MicYou/refs/heads/master/docs/plugin-api/README.md
+- https://raw.githubusercontent.com/LanRhyme/MicYou/refs/heads/master/docs/plugin-api/api-reference.md
+- https://raw.githubusercontent.com/LanRhyme/MicYou/refs/heads/master/docs/plugin-api/best-practices.md
+- https://raw.githubusercontent.com/LanRhyme/MicYou/refs/heads/master/docs/plugin-api/plugin-format.md
+Agent:
+- https://raw.githubusercontent.com/LanRhyme/MicYou/refs/heads/master/docs/plugin-api/agent/rules/project_rules.md
+- https://raw.githubusercontent.com/LanRhyme/MicYou/refs/heads/master/docs/plugin-api/agent/skills/micyou-plugin.md
